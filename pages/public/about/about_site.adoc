@@ -33,7 +33,7 @@ resource_options:
 // Set (local) page attributes here
 // -----------------------------------------------------------------------------
 // :page--attr:                         <attr-value>
-:badges-enabled:                        false
+:badges-enabled:                        true
 
 //  Load Liquid procedures
 // -----------------------------------------------------------------------------
@@ -48,6 +48,13 @@ resource_options:
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ifeval::[{badges-enabled} == true]
+++++
+  <a
+    href="https://app.netlify.com/sites/j1-template-starter/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/1c7d492e-76ce-482f-a8d2-8925266ac34a/deploy-status"
+    alt="Netlify Status">
+  </a>
+++++
 {badge-j1--license} {badge-j1--version-latest} {badge-j1-gh--last-commit} {badge-j1--downloads}
 endif::[]
 
