@@ -208,8 +208,8 @@ settings:
   nav_quicklinks:
     enabled:                            true
 
-    home_url:                           https://jekyll-one-org.github.io/       # none | URL
-    back_url:                           https://publish.jekyll.one/             # none | URL
+    home_url:                           https://j1-template-starter.netlify.app/
+    back_url:                           none
 
     r_text_sizer:                       false                                   # true | false
 
