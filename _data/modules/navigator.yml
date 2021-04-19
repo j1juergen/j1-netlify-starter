@@ -208,14 +208,14 @@ settings:
   nav_quicklinks:
     enabled:                            true
 
-    home_url:                           /                                       # none | URL
-    back_url:                           none                                    # none | URL
+    home_url:                           https://jekyll-one-org.github.io/       # none | URL
+    back_url:                           https://publish.jekyll.one/             # none | URL
 
     r_text_sizer:                       false                                   # true | false
 
     github_url:                         none                                    # https://github.com/jekyll-one
     disqus_url:                         none                                    # https://disqus.com/
-    patreon_url:                        none                                    # https://www.patreon.com/jekyll_one/posts
+    patreon_url:                        none
 
   # ----------------------------------------------------------------------------
   # NavTopsearch

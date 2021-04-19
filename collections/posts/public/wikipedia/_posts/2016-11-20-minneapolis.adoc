@@ -5,6 +5,11 @@ tagline:                                largest city in the state of minnesota
 categories:                             [ Wikipedia ]
 tags:                                   [ USA, Minnesota, City, Minneapolis ]
 
+sitemap:                                false
+robots:
+  index:                                false
+  follow:                               false
+
 regenerate:                             false
 
 resources:                              []

@@ -5,6 +5,11 @@ tagline:                                largest snake population
 categories:                             [ Wikipedia ]
 tags:                                   [ Canada, Cities ]
 
+sitemap:                                false
+robots:
+  index:                                false
+  follow:                               false
+
 regenerate:                             false
 
 resources:                              []

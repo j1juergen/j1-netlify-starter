@@ -135,8 +135,7 @@ settings:
               type:                     text
               animate:                  fadeInUp
               title:                    Jekyll One Template
-              tagline: >
-                                        <b>powerful modern static websites</b>
+              tagline:                  <b>powerful modern static websites</b>
               description: >
                                         <p>
                                           Jekyll One Template is the first toolbox to create modern webs and a
