@@ -53,7 +53,7 @@ environment:                            production
 # ------------------------------------------------------------------------------
 #   Sets the build version of J1 Template Gem
 #
-version:                                2021.1.1
+version:                                2021.1.2
 
 # version
 # ------------------------------------------------------------------------------
@@ -224,7 +224,7 @@ doctype:                                html
 #   default:                            false
 #
 title:                                  J1
-slogan:                                 starter@netlify
+slogan:                                 starter
 description: >
                                         Made for Jekyll · Made for Your Web
 
@@ -318,7 +318,7 @@ permalink:                              pretty
 # if you are running jekyll serve in a development environment,
 # site.url will be set to the value of host, port.
 #
-url:                                    "https://j1-template-starter.netlify.app"
+url:                                    "http://localhost:40000"
 
 # The subpath of your site, e.g. /blog/. Used in conjunction with
 # site.url (see above) when you want a link to something with the
@@ -344,7 +344,7 @@ base_path:                              ""
 #
 protocol:                               http
 host:                                   localhost
-port:                                   25000
+port:                                   40000
 timezone:                               Europe/Berlin
 encoding:                               UTF-8
 
@@ -420,10 +420,10 @@ sass:
 # POSTS Management
 # Set the post articles to include, exclude and ignore
 #
-#future:                                false
-#show_drafts:                           false
-#unpublished:                           false
-#limit_posts:                           10
+future:                                 true                                    # workaround (non US) TZ issues (of April 2021)
+show_drafts:                            false
+unpublished:                            false
+limit_posts:                            1000000                                 # set to UNLIMITED
 
 # ------------------------------------------------------------------------------
 # LIQUID template engine
@@ -443,7 +443,7 @@ plugins:
 # - jekyll-gist
 # - jekyll-redirect-from
 # - jekyll-sass-converter
-  - jekyll-sitemap
+# - jekyll-sitemap
   - j1-paginator
 
 # ------------------------------------------------------------------------------
@@ -637,7 +637,7 @@ defaults:
 
       analytics:                        false
       advertising:                      false
-      comments:                         true
+      comments:                         false
 
       series:                           false
 
@@ -676,7 +676,7 @@ defaults:
 
       analytics:                        false
       advertising:                      false
-      comments:                         true
+      comments:                         false
 
       series:                           true
 
